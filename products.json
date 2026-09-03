@@ -1,0 +1,2168 @@
+[
+  {
+    "brand": "SloanLED",
+    "name": "VL5 Nano 12V",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 20,
+    "depthMax": 75,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Solid / block acrylic letters",
+      "Flat-cut letters \u2014 rear halo"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7200K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 60,
+    "maxRun": null,
+    "source": "SloanLED VL5 / Channel Letter guide",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL5 Mini 12V",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 35,
+    "depthMax": 100,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7200K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 150,
+    "maxRun": null,
+    "source": "SloanLED VL5 Global Spec",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL5 12V",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 50,
+    "depthMax": 150,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7200K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 250,
+    "maxRun": null,
+    "source": "SloanLED VL5 Global Spec",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL5 HO 12V",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 125,
+    "depthMax": 400,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Rigid-face lightbox \u2014 single-sided",
+      "Rigid-face lightbox \u2014 double-sided",
+      "Flex-face lightbox \u2014 single-sided",
+      "Flex-face lightbox \u2014 double-sided",
+      "Projecting sign \u2014 double-sided",
+      "Totem / monolith \u2014 illuminated",
+      "Menu case / poster box"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7200K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 475,
+    "maxRun": null,
+    "source": "SloanLED VL5 Global Spec",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL5 24V",
+    "category": "module",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 50,
+    "depthMax": 150,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7200K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 250,
+    "maxRun": null,
+    "source": "SloanLED VL5 Global Spec",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL5 HO 24V",
+    "category": "module",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 125,
+    "depthMax": 400,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Rigid-face lightbox \u2014 single-sided",
+      "Rigid-face lightbox \u2014 double-sided",
+      "Flex-face lightbox \u2014 single-sided",
+      "Flex-face lightbox \u2014 double-sided",
+      "Projecting sign \u2014 double-sided",
+      "Totem / monolith \u2014 illuminated",
+      "Menu case / poster box"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7200K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 475,
+    "maxRun": null,
+    "source": "SloanLED VL5 Global Spec",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL5 Super HO 24V",
+    "category": "module",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 175,
+    "depthMax": 600,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Rigid-face lightbox \u2014 single-sided",
+      "Rigid-face lightbox \u2014 double-sided",
+      "Flex-face lightbox \u2014 single-sided",
+      "Flex-face lightbox \u2014 double-sided",
+      "Projecting sign \u2014 double-sided",
+      "Totem / monolith \u2014 illuminated",
+      "Menu case / poster box"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7200K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 600,
+    "maxRun": null,
+    "source": "SloanLED VL5 Global Spec",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "SloanLED Prism12 Mini",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 35,
+    "depthMax": 100,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Solid / block acrylic letters",
+      "Flat-cut letters \u2014 rear halo"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7100K",
+      "7200K",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 150,
+    "maxRun": null,
+    "source": "SloanLED Global Channel Letter Product Guide",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "SloanLED Prism12",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 75,
+    "depthMax": 200,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7100K",
+      "7200K",
+      "Red",
+      "Orange",
+      "Green",
+      "Blue"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 204,
+    "maxRun": null,
+    "source": "SloanLED Channel Letter Modules Quick Product Guide",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "SloanLED Prism12 Nano+",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 20,
+    "depthMax": 75,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Solid / block acrylic letters",
+      "Flat-cut letters \u2014 rear halo"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7100K",
+      "7200K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 75,
+    "maxRun": null,
+    "source": "SloanLED Global Channel Letter Product Guide",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "SloanLED Prism24 Mini",
+    "category": "module",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 35,
+    "depthMax": 100,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Solid / block acrylic letters",
+      "Flat-cut letters \u2014 rear halo"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7100K",
+      "7200K",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 122,
+    "maxRun": null,
+    "source": "SloanLED Global Channel Letter Product Guide",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "SloanLED Prism24",
+    "category": "module",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 75,
+    "depthMax": 250,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7100K",
+      "7200K",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 256,
+    "maxRun": null,
+    "source": "SloanLED Global Channel Letter Product Guide",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "SloanLED Prism24 HO",
+    "category": "module",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 125,
+    "depthMax": 400,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Rigid-face lightbox \u2014 single-sided",
+      "Rigid-face lightbox \u2014 double-sided",
+      "Flex-face lightbox \u2014 single-sided",
+      "Flex-face lightbox \u2014 double-sided",
+      "Projecting sign \u2014 double-sided",
+      "Totem / monolith \u2014 illuminated",
+      "Menu case / poster box"
+    ],
+    "colors": [
+      "5000K",
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 385,
+    "maxRun": null,
+    "source": "SloanLED Global Channel Letter Product Guide",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "SloanLED Prism24 LP",
+    "category": "module",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 25,
+    "depthMax": 100,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Solid / block acrylic letters",
+      "Flat-cut letters \u2014 rear halo"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7100K",
+      "7200K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 125,
+    "maxRun": null,
+    "source": "SloanLED Channel Letter collection",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL4 Mini",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 35,
+    "depthMax": 100,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Solid / block acrylic letters",
+      "Flat-cut letters \u2014 rear halo"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7100K",
+      "7200K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 150,
+    "maxRun": null,
+    "source": "SloanLED Channel Letter collection",
+    "verified": false,
+    "notes": "Legacy/current regional availability to be confirmed before ordering."
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL4",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 50,
+    "depthMax": 150,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7100K",
+      "7200K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 250,
+    "maxRun": null,
+    "source": "SloanLED Channel Letter collection",
+    "verified": false,
+    "notes": "Legacy/current regional availability to be confirmed before ordering."
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL4 HO",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 125,
+    "depthMax": 350,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Rigid-face lightbox \u2014 single-sided",
+      "Rigid-face lightbox \u2014 double-sided",
+      "Flex-face lightbox \u2014 single-sided",
+      "Flex-face lightbox \u2014 double-sided",
+      "Projecting sign \u2014 double-sided",
+      "Totem / monolith \u2014 illuminated",
+      "Menu case / poster box"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7100K",
+      "7200K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 450,
+    "maxRun": null,
+    "source": "SloanLED Channel Letter collection",
+    "verified": false,
+    "notes": "Legacy/current regional availability to be confirmed before ordering."
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL4 Super HO",
+    "category": "module",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 175,
+    "depthMax": 600,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Rigid-face lightbox \u2014 single-sided",
+      "Rigid-face lightbox \u2014 double-sided",
+      "Flex-face lightbox \u2014 single-sided",
+      "Flex-face lightbox \u2014 double-sided",
+      "Projecting sign \u2014 double-sided",
+      "Totem / monolith \u2014 illuminated",
+      "Menu case / poster box"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7100K",
+      "7200K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 600,
+    "maxRun": null,
+    "source": "SloanLED Channel Letter collection",
+    "verified": false,
+    "notes": "Legacy/current regional availability to be confirmed before ordering."
+  },
+  {
+    "brand": "SloanLED",
+    "name": "SloanLED Spectrum RGBW Module",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 50,
+    "depthMax": 250,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Rigid-face lightbox \u2014 single-sided"
+    ],
+    "colors": [
+      "RGBW"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 180,
+    "maxRun": null,
+    "source": "SloanLED Channel Letter collection",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "SloanLED FlexTAPE 12V",
+    "category": "reel",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 5,
+    "depthMax": 80,
+    "apps": [
+      "LED ribbon / extrusion",
+      "Edge-lit acrylic panel",
+      "Menu case / poster box"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Global Product Guide",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "SignBOX 2",
+    "category": "bar",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 80,
+    "depthMax": 500,
+    "apps": [
+      "Rigid-face lightbox \u2014 single-sided",
+      "Rigid-face lightbox \u2014 double-sided",
+      "Flex-face lightbox \u2014 single-sided",
+      "Flex-face lightbox \u2014 double-sided",
+      "Projecting sign \u2014 double-sided",
+      "Totem / monolith \u2014 illuminated",
+      "Menu case / poster box"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Sign Cabinet collection",
+    "verified": false,
+    "notes": "Use current SignBOX 2 spacing/power table for production."
+  },
+  {
+    "brand": "SloanLED",
+    "name": "SignBOX 3",
+    "category": "bar",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 80,
+    "depthMax": 500,
+    "apps": [
+      "Rigid-face lightbox \u2014 single-sided",
+      "Rigid-face lightbox \u2014 double-sided",
+      "Flex-face lightbox \u2014 single-sided",
+      "Flex-face lightbox \u2014 double-sided",
+      "Projecting sign \u2014 double-sided",
+      "Totem / monolith \u2014 illuminated",
+      "Menu case / poster box"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Sign Cabinet collection",
+    "verified": false,
+    "notes": "Use current SignBOX 3 spacing/power table for production."
+  },
+  {
+    "brand": "SloanLED",
+    "name": "PosterBOX Mini",
+    "category": "bar",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 30,
+    "depthMax": 150,
+    "apps": [
+      "Menu case / poster box",
+      "Projecting sign \u2014 double-sided",
+      "Rigid-face lightbox \u2014 double-sided"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Light Box collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "PosterBOX Slim 2",
+    "category": "bar",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 30,
+    "depthMax": 150,
+    "apps": [
+      "Menu case / poster box",
+      "Rigid-face lightbox \u2014 double-sided"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Light Box collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "PosterBOX 3",
+    "category": "bar",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 40,
+    "depthMax": 200,
+    "apps": [
+      "Menu case / poster box",
+      "Rigid-face lightbox \u2014 double-sided"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Light Box collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "BrightLINE 2",
+    "category": "bar",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 30,
+    "depthMax": 150,
+    "apps": [
+      "Rigid-face lightbox \u2014 single-sided",
+      "Menu case / poster box"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Light Box collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "BrightLINE Outdoor",
+    "category": "bar",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 30,
+    "depthMax": 200,
+    "apps": [
+      "Rigid-face lightbox \u2014 single-sided",
+      "Totem / monolith \u2014 illuminated"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Light Box collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "PrismBEAM 3",
+    "category": "bar",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 80,
+    "depthMax": 500,
+    "apps": [
+      "Rigid-face lightbox \u2014 single-sided",
+      "Rigid-face lightbox \u2014 double-sided",
+      "Flex-face lightbox \u2014 single-sided",
+      "Flex-face lightbox \u2014 double-sided",
+      "Projecting sign \u2014 double-sided",
+      "Totem / monolith \u2014 illuminated",
+      "Menu case / poster box"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Sign Cabinet collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "SlimLINER",
+    "category": "bar",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 20,
+    "depthMax": 100,
+    "apps": [
+      "Menu case / poster box",
+      "Rigid-face lightbox \u2014 single-sided"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Light Box collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "LEDStripe 12V",
+    "category": "linear",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 5,
+    "depthMax": 100,
+    "apps": [
+      "LED neon / flex",
+      "LED ribbon / extrusion"
+    ],
+    "colors": [
+      "White",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Tubing collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "LEDStripe 24V",
+    "category": "linear",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 5,
+    "depthMax": 100,
+    "apps": [
+      "LED neon / flex",
+      "LED ribbon / extrusion"
+    ],
+    "colors": [
+      "White",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Tubing collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "FlexiBRITE24",
+    "category": "linear",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 5,
+    "depthMax": 100,
+    "apps": [
+      "LED neon / flex"
+    ],
+    "colors": [
+      "White",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Tubing collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "Street Wrap Flex Mini",
+    "category": "linear",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 100,
+    "apps": [
+      "LED neon / flex"
+    ],
+    "colors": [
+      "White"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Flexible Illumination collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "Street Wrap Flex Pod",
+    "category": "linear",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 100,
+    "apps": [
+      "LED neon / flex"
+    ],
+    "colors": [
+      "White"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Flexible Illumination collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "Street Wrap Flex Side-Bend",
+    "category": "linear",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 100,
+    "apps": [
+      "LED neon / flex"
+    ],
+    "colors": [
+      "White"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Flexible Illumination collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "Street Wrap Flex Back-Bend",
+    "category": "linear",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 100,
+    "apps": [
+      "LED neon / flex"
+    ],
+    "colors": [
+      "White"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Flexible Illumination collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "SloanLED",
+    "name": "Street Wrap Flex Wide",
+    "category": "linear",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 100,
+    "apps": [
+      "LED neon / flex"
+    ],
+    "colors": [
+      "White"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "SloanLED Flexible Illumination collection",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Prime",
+    "category": "module",
+    "voltage": 12,
+    "watts": 1.2,
+    "depthMin": 50,
+    "depthMax": 200,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Rigid-face lightbox \u2014 single-sided"
+    ],
+    "colors": [
+      "3000K",
+      "6500K"
+    ],
+    "beam": null,
+    "ip": "IP67",
+    "spacing": 200,
+    "maxRun": 50,
+    "source": "FirstLite FL Prime",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Dual",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 30,
+    "depthMax": 120,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic"
+    ],
+    "colors": [
+      "3000K",
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 120,
+    "maxRun": null,
+    "source": "FirstLite FL Dual",
+    "verified": true,
+    "notes": "Shallow return / narrow stroke module."
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Micron",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 20,
+    "depthMax": 80,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Solid / block acrylic letters",
+      "Flat-cut letters \u2014 rear halo"
+    ],
+    "colors": [
+      "3000K",
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 80,
+    "maxRun": null,
+    "source": "FirstLite FL Micron",
+    "verified": true,
+    "notes": "Smallest FirstLite module; narrow strokes / shallow returns."
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Mini Plus",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 30,
+    "depthMax": 120,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Solid / block acrylic letters",
+      "Flat-cut letters \u2014 rear halo"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "6500K",
+      "Red",
+      "Green",
+      "Blue",
+      "Orange"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 120,
+    "maxRun": null,
+    "source": "FirstLite FL Mini Plus",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Nano",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 30,
+    "depthMax": 120,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Built-up letters \u2014 face + halo",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Solid / block acrylic letters",
+      "Flat-cut letters \u2014 rear halo"
+    ],
+    "colors": [
+      "3000K",
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 100,
+    "maxRun": null,
+    "source": "FirstLite FL Nano",
+    "verified": true,
+    "notes": "Compact 2835 three-chip module."
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Vizion",
+    "category": "module",
+    "voltage": 24,
+    "watts": 7.2,
+    "depthMin": 120,
+    "depthMax": 500,
+    "apps": [
+      "Rigid-face lightbox \u2014 double-sided",
+      "Projecting sign \u2014 double-sided",
+      "Totem / monolith \u2014 illuminated",
+      "Flex-face lightbox \u2014 double-sided"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "beam": null,
+    "ip": "IP67",
+    "spacing": 350,
+    "maxRun": 16,
+    "source": "FirstLite FL Vizion",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Max",
+    "category": "module",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 180,
+    "depthMax": 350,
+    "apps": [
+      "Flex-face lightbox \u2014 single-sided",
+      "Flex-face lightbox \u2014 double-sided",
+      "Rigid-face lightbox \u2014 single-sided",
+      "Totem / monolith \u2014 illuminated"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 587,
+    "maxRun": null,
+    "source": "FirstLite FL Max",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Ultra",
+    "category": "bar",
+    "voltage": 24,
+    "watts": null,
+    "depthMin": 60,
+    "depthMax": 500,
+    "apps": [
+      "Rigid-face lightbox \u2014 double-sided",
+      "Projecting sign \u2014 double-sided",
+      "Totem / monolith \u2014 illuminated",
+      "Flex-face lightbox \u2014 double-sided"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 438,
+    "maxRun": null,
+    "source": "FirstLite FL Ultra",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Edge",
+    "category": "module",
+    "voltage": 12,
+    "watts": 1.5,
+    "depthMin": 50,
+    "depthMax": 100,
+    "apps": [
+      "Rigid-face lightbox \u2014 double-sided",
+      "Projecting sign \u2014 double-sided",
+      "Menu case / poster box"
+    ],
+    "colors": [
+      "3000K",
+      "6500K"
+    ],
+    "beam": null,
+    "ip": "IP67",
+    "spacing": 100,
+    "maxRun": null,
+    "source": "FirstLite FL Edge",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL RGB",
+    "category": "module",
+    "voltage": 12,
+    "watts": 0.72,
+    "depthMin": 50,
+    "depthMax": 250,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Rigid-face lightbox \u2014 single-sided"
+    ],
+    "colors": [
+      "RGB"
+    ],
+    "beam": null,
+    "ip": "IP65",
+    "spacing": 205,
+    "maxRun": null,
+    "source": "FirstLite FL RGB",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL RGBW",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 50,
+    "depthMax": 250,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Rigid-face lightbox \u2014 single-sided"
+    ],
+    "colors": [
+      "RGBW"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 180,
+    "maxRun": null,
+    "source": "FirstLite FL RGBW",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "FirstLite",
+    "name": "RGB Mini",
+    "category": "module",
+    "voltage": 12,
+    "watts": null,
+    "depthMin": 30,
+    "depthMax": 140,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Solid / block acrylic letters"
+    ],
+    "colors": [
+      "RGB"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": 125,
+    "maxRun": null,
+    "source": "FirstLite RGB Mini",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "MICRO LED Module IP67",
+    "category": "module",
+    "voltage": 12,
+    "watts": 0.24,
+    "depthMin": 30,
+    "depthMax": 100,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Flat-cut letters \u2014 rear halo",
+      "Solid / block acrylic letters"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "6500K"
+    ],
+    "beam": 165,
+    "ip": "IP67",
+    "spacing": 75,
+    "maxRun": 100,
+    "source": "Citi-LED MICRO LED Module Series IP67",
+    "verified": true,
+    "notes": "Solid block acrylic stated for approx. 30 mm depth / max stroke 30 mm."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "Panorama Mini 1.0W",
+    "category": "module",
+    "voltage": 12,
+    "watts": 1.0,
+    "depthMin": 60,
+    "depthMax": 120,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Rigid-face lightbox \u2014 single-sided",
+      "Flex-face lightbox \u2014 single-sided",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "6500K",
+      "7000K"
+    ],
+    "beam": 175,
+    "ip": "IP67",
+    "spacing": 120,
+    "maxRun": null,
+    "source": "Citi-LED Panorama Mini LED Series",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "Citi-LED Samsung 1.2W",
+    "category": "module",
+    "voltage": 12,
+    "watts": 1.2,
+    "depthMin": 60,
+    "depthMax": 200,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Rigid-face lightbox \u2014 single-sided",
+      "Flex-face lightbox \u2014 single-sided",
+      "Fret-cut tray \u2014 backed acrylic"
+    ],
+    "colors": [
+      "6500K",
+      "9500K"
+    ],
+    "beam": 160,
+    "ip": "IP67",
+    "spacing": 180,
+    "maxRun": null,
+    "source": "Citi-LED 1.2W Samsung 9500K Korea",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "RGB Digital WS2811",
+    "category": "module",
+    "voltage": 12,
+    "watts": 0.72,
+    "depthMin": 60,
+    "depthMax": 200,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Rigid-face lightbox \u2014 single-sided",
+      "Fret-cut tray \u2014 backed acrylic"
+    ],
+    "colors": [
+      "RGB"
+    ],
+    "beam": 165,
+    "ip": "IP68",
+    "spacing": 125,
+    "maxRun": null,
+    "source": "Citi-LED RGB Digital WS2811",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "Panorama XL 3 Chip",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "Citi-LENS V3 High Output",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "Citi-LED 1.08W Samsung",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "24V Panorama",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "Citi-LENS V3",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "Citi-LENS Mini",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "MINI LENS 3 LED",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "Panorama 2 LED",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "S-Type Block Letter LED",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "24V Panorama 48D Lightbox",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "Wee-1 Mini",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "ECO LENS 0.48W Midi",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "Citi V-LENS Mini",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "24V Panorama 1.5W High Output",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "Eco Lens Samsung",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "24V Sem Edge LED Bar",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "12V Sem Edge Light Module",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "Mini Z",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "Wee-3 Mini",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "Citi-LED",
+    "name": "ECO LENS 0.72W",
+    "category": "module",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 1,
+    "depthMax": 1000,
+    "apps": [
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "Supplier options"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Citi-LED Sign Module Catalogue",
+    "verified": false,
+    "notes": "Catalogue family captured; exact datasheet fields must be verified before automatic engineering use."
+  },
+  {
+    "brand": "UltraLEDs / Tagra",
+    "name": "PRO 1-dot",
+    "category": "module",
+    "voltage": 12,
+    "watts": 0.36,
+    "depthMin": 20,
+    "depthMax": 90,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Flat-cut letters \u2014 rear halo",
+      "Solid / block acrylic letters",
+      "Fret-cut tray \u2014 acrylic pushed through"
+    ],
+    "colors": [
+      "3000K",
+      "6500K"
+    ],
+    "beam": 170,
+    "ip": "IP66",
+    "spacing": 100,
+    "maxRun": null,
+    "source": "UltraLEDs Tagra LED Module Range",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "UltraLEDs / Tagra",
+    "name": "PRO 2-dot",
+    "category": "module",
+    "voltage": 12,
+    "watts": 0.72,
+    "depthMin": 40,
+    "depthMax": 140,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Built-up letters \u2014 halo illuminated",
+      "Fret-cut tray \u2014 acrylic pushed through",
+      "Fret-cut tray \u2014 backed acrylic",
+      "Rigid-face lightbox \u2014 single-sided"
+    ],
+    "colors": [
+      "3000K",
+      "6500K"
+    ],
+    "beam": 170,
+    "ip": "IP66",
+    "spacing": 125,
+    "maxRun": null,
+    "source": "UltraLEDs Tagra LED Module Range",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "UltraLEDs / Tagra",
+    "name": "PRO 3-dot",
+    "category": "module",
+    "voltage": 12,
+    "watts": 1.08,
+    "depthMin": 60,
+    "depthMax": 250,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Rigid-face lightbox \u2014 single-sided",
+      "Flex-face lightbox \u2014 single-sided",
+      "Totem / monolith \u2014 illuminated"
+    ],
+    "colors": [
+      "3000K",
+      "6500K"
+    ],
+    "beam": 170,
+    "ip": "IP66",
+    "spacing": 150,
+    "maxRun": null,
+    "source": "UltraLEDs Tagra LED Module Range",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "UltraLEDs / Tagra",
+    "name": "COLOUR RGBW 3-dot",
+    "category": "module",
+    "voltage": 12,
+    "watts": 0.96,
+    "depthMin": 50,
+    "depthMax": 220,
+    "apps": [
+      "Built-up letters \u2014 face illuminated",
+      "Rigid-face lightbox \u2014 single-sided",
+      "Flex-face lightbox \u2014 single-sided"
+    ],
+    "colors": [
+      "RGBW"
+    ],
+    "beam": 160,
+    "ip": "IP65",
+    "spacing": 125,
+    "maxRun": null,
+    "source": "UltraLEDs Tagra LED Module Range",
+    "verified": true,
+    "notes": ""
+  },
+  {
+    "brand": "Applelec",
+    "name": "Green LED Light Sheet 2.0",
+    "category": "light-sheet",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 18,
+    "depthMax": 196,
+    "apps": [
+      "Fabric / SEG lightbox",
+      "Menu case / poster box",
+      "Edge-lit acrylic panel",
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "White"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Applelec Lighting Downloads / Datasheets",
+    "verified": false,
+    "notes": "Engineered Applelec light-sheet solution; dimensions/power generated from project-specific panel specification."
+  },
+  {
+    "brand": "Applelec",
+    "name": "High Efficiency RGBW LED Light Sheet",
+    "category": "light-sheet",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 18,
+    "depthMax": 196,
+    "apps": [
+      "Fabric / SEG lightbox",
+      "Menu case / poster box",
+      "Bespoke / manual engineering"
+    ],
+    "colors": [
+      "RGBW"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Applelec Lighting Downloads / Datasheets",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "Applelec",
+    "name": "Grade A 8mm Super High Efficiency Ribbon",
+    "category": "reel",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 5,
+    "depthMax": 100,
+    "apps": [
+      "LED ribbon / extrusion",
+      "Edge-lit acrylic panel",
+      "Menu case / poster box"
+    ],
+    "colors": [
+      "White"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Applelec Lighting Downloads / Datasheets",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "Applelec",
+    "name": "Grade A 4mm Super High Efficiency Ribbon",
+    "category": "reel",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 5,
+    "depthMax": 80,
+    "apps": [
+      "LED ribbon / extrusion",
+      "Edge-lit acrylic panel"
+    ],
+    "colors": [
+      "White"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Applelec Lighting Downloads / Datasheets",
+    "verified": false,
+    "notes": ""
+  },
+  {
+    "brand": "Applelec",
+    "name": "High Efficiency RGBW Ribbon Tape",
+    "category": "reel",
+    "voltage": null,
+    "watts": null,
+    "depthMin": 5,
+    "depthMax": 100,
+    "apps": [
+      "LED ribbon / extrusion",
+      "Edge-lit acrylic panel",
+      "Menu case / poster box"
+    ],
+    "colors": [
+      "RGBW"
+    ],
+    "beam": null,
+    "ip": null,
+    "spacing": null,
+    "maxRun": null,
+    "source": "Applelec Lighting Downloads / Datasheets",
+    "verified": false,
+    "notes": ""
+  }
+]
