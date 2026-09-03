@@ -1,0 +1,262 @@
+{
+  "Built-up letters \u2014 face illuminated": {
+    "faces": [
+      "Opal acrylic face",
+      "Opal acrylic + translucent vinyl",
+      "Coloured acrylic face"
+    ],
+    "modes": [
+      "Face-lit"
+    ],
+    "typical_depth": [
+      35,
+      305
+    ]
+  },
+  "Built-up letters \u2014 halo illuminated": {
+    "faces": [
+      "Opaque aluminium face + returns",
+      "Opaque acrylic / fabricated face"
+    ],
+    "modes": [
+      "Halo"
+    ],
+    "typical_depth": [
+      25,
+      200
+    ]
+  },
+  "Built-up letters \u2014 face + halo": {
+    "faces": [
+      "Opal acrylic face + fabricated returns",
+      "Opal acrylic + painted returns"
+    ],
+    "modes": [
+      "Face + halo"
+    ],
+    "typical_depth": [
+      35,
+      250
+    ]
+  },
+  "Flat-cut letters \u2014 rear halo": {
+    "faces": [
+      "Aluminium / ACM flat-cut letter",
+      "Acrylic flat-cut letter"
+    ],
+    "modes": [
+      "Halo"
+    ],
+    "typical_depth": [
+      10,
+      100
+    ]
+  },
+  "Solid / block acrylic letters": {
+    "faces": [
+      "Solid opal acrylic",
+      "Clear acrylic with diffused face",
+      "Routed acrylic"
+    ],
+    "modes": [
+      "Embedded / edge",
+      "Face-lit"
+    ],
+    "typical_depth": [
+      10,
+      80
+    ]
+  },
+  "Fret-cut tray \u2014 acrylic pushed through": {
+    "faces": [
+      "Pushed-through opal acrylic",
+      "Opal acrylic + translucent vinyl"
+    ],
+    "modes": [
+      "Face-lit"
+    ],
+    "typical_depth": [
+      30,
+      200
+    ]
+  },
+  "Fret-cut tray \u2014 backed acrylic": {
+    "faces": [
+      "Opal acrylic backing",
+      "Opal acrylic + translucent vinyl"
+    ],
+    "modes": [
+      "Face-lit"
+    ],
+    "typical_depth": [
+      30,
+      200
+    ]
+  },
+  "Rigid-face lightbox \u2014 single-sided": {
+    "faces": [
+      "Opal acrylic",
+      "Opal polycarbonate",
+      "Printed translucent rigid face"
+    ],
+    "modes": [
+      "Back-lit",
+      "Side-lit"
+    ],
+    "typical_depth": [
+      30,
+      300
+    ]
+  },
+  "Rigid-face lightbox \u2014 double-sided": {
+    "faces": [
+      "Opal acrylic faces",
+      "Opal polycarbonate faces",
+      "Printed translucent rigid faces"
+    ],
+    "modes": [
+      "Double-sided / side-lit"
+    ],
+    "typical_depth": [
+      50,
+      400
+    ]
+  },
+  "Flex-face lightbox \u2014 single-sided": {
+    "faces": [
+      "Printed double-strike flex face skin"
+    ],
+    "modes": [
+      "Back-lit",
+      "Side-lit"
+    ],
+    "typical_depth": [
+      60,
+      600
+    ]
+  },
+  "Flex-face lightbox \u2014 double-sided": {
+    "faces": [
+      "Printed double-strike flex face skins \u2014 both faces"
+    ],
+    "modes": [
+      "Double-sided / side-lit",
+      "Back-to-back"
+    ],
+    "typical_depth": [
+      100,
+      600
+    ]
+  },
+  "Fabric / SEG lightbox": {
+    "faces": [
+      "Printed SEG fabric skin",
+      "Plain diffusing fabric skin"
+    ],
+    "modes": [
+      "Back-lit",
+      "Edge-lit"
+    ],
+    "typical_depth": [
+      18,
+      200
+    ]
+  },
+  "Projecting sign \u2014 double-sided": {
+    "faces": [
+      "Opal acrylic faces",
+      "Printed translucent faces",
+      "Flex faces"
+    ],
+    "modes": [
+      "Side-lit",
+      "Edge-lit"
+    ],
+    "typical_depth": [
+      50,
+      300
+    ]
+  },
+  "Totem / monolith \u2014 illuminated": {
+    "faces": [
+      "Printed translucent rigid faces",
+      "Opal acrylic / polycarbonate faces",
+      "Flex face skin"
+    ],
+    "modes": [
+      "Back-lit",
+      "Side-lit"
+    ],
+    "typical_depth": [
+      80,
+      500
+    ]
+  },
+  "Menu case / poster box": {
+    "faces": [
+      "Graphic panel + diffuser",
+      "Opal acrylic / polycarbonate"
+    ],
+    "modes": [
+      "Edge-lit",
+      "Side-lit",
+      "Back-lit"
+    ],
+    "typical_depth": [
+      20,
+      150
+    ]
+  },
+  "LED neon / flex": {
+    "faces": [
+      "Direct-view neon flex",
+      "Silicone neon flex"
+    ],
+    "modes": [
+      "Direct-view"
+    ],
+    "typical_depth": [
+      1,
+      100
+    ]
+  },
+  "LED ribbon / extrusion": {
+    "faces": [
+      "No diffuser",
+      "Opal diffuser",
+      "Acrylic diffuser"
+    ],
+    "modes": [
+      "Linear"
+    ],
+    "typical_depth": [
+      1,
+      100
+    ]
+  },
+  "Edge-lit acrylic panel": {
+    "faces": [
+      "Clear engraved acrylic",
+      "Diffused acrylic"
+    ],
+    "modes": [
+      "Edge-lit"
+    ],
+    "typical_depth": [
+      5,
+      50
+    ]
+  },
+  "Bespoke / manual engineering": {
+    "faces": [
+      "User-defined construction"
+    ],
+    "modes": [
+      "Manual"
+    ],
+    "typical_depth": [
+      1,
+      1000
+    ]
+  }
+}
