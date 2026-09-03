@@ -1,0 +1,345 @@
+[
+  {
+    "brand": "SloanLED",
+    "name": "VL5 Nano 12V",
+    "voltage": 12,
+    "depthMin": 20,
+    "depthMax": 60,
+    "apps": [
+      "Block acrylic / routed acrylic",
+      "Face illuminated built-up letters"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7200K"
+    ],
+    "spacing": 120
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL5 Mini 12V",
+    "voltage": 12,
+    "depthMin": 35,
+    "depthMax": 100,
+    "apps": [
+      "Face illuminated built-up letters",
+      "Halo illuminated built-up letters",
+      "Face + halo built-up letters"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7200K"
+    ],
+    "spacing": 150
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL5 Standard 12V",
+    "voltage": 12,
+    "depthMin": 50,
+    "depthMax": 150,
+    "apps": [
+      "Face illuminated built-up letters",
+      "Halo illuminated built-up letters",
+      "Face + halo built-up letters"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7200K"
+    ],
+    "spacing": 250
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL5 HO 12V",
+    "voltage": 12,
+    "depthMin": 125,
+    "depthMax": 500,
+    "apps": [
+      "Face illuminated built-up letters",
+      "Large/deep built-up letters",
+      "Single-sided sign box / tray"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7200K"
+    ],
+    "spacing": 475
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL5 Standard 24V",
+    "voltage": 24,
+    "depthMin": 50,
+    "depthMax": 150,
+    "apps": [
+      "Face illuminated built-up letters",
+      "Halo illuminated built-up letters",
+      "Face + halo built-up letters"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7200K"
+    ],
+    "spacing": 250
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL5 HO 24V",
+    "voltage": 24,
+    "depthMin": 125,
+    "depthMax": 500,
+    "apps": [
+      "Face illuminated built-up letters",
+      "Large/deep built-up letters",
+      "Single-sided sign box / tray"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7200K"
+    ],
+    "spacing": 475
+  },
+  {
+    "brand": "SloanLED",
+    "name": "VL5 Super HO 24V",
+    "voltage": 24,
+    "depthMin": 180,
+    "depthMax": 600,
+    "apps": [
+      "Large/deep built-up letters",
+      "Single-sided sign box / tray",
+      "Flex-face single-sided",
+      "Flex-face double-sided"
+    ],
+    "colors": [
+      "3000K",
+      "4000K",
+      "5000K",
+      "6500K",
+      "7200K"
+    ],
+    "spacing": 600
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Prime",
+    "voltage": 12,
+    "depthMin": 50,
+    "depthMax": 200,
+    "apps": [
+      "Face illuminated built-up letters",
+      "Halo illuminated built-up letters",
+      "Face + halo built-up letters",
+      "Single-sided sign box / tray"
+    ],
+    "colors": [
+      "3000K",
+      "6500K"
+    ],
+    "spacing": 200,
+    "watts": 1.2,
+    "driver60": 45
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Dual",
+    "voltage": 12,
+    "depthMin": 40,
+    "depthMax": 150,
+    "apps": [
+      "Face illuminated built-up letters",
+      "Halo illuminated built-up letters",
+      "Face + halo built-up letters"
+    ],
+    "colors": [
+      "3000K",
+      "6500K"
+    ],
+    "spacing": 150,
+    "watts": 0.72,
+    "driver60": 75
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Mini Plus",
+    "voltage": 12,
+    "depthMin": 35,
+    "depthMax": 200,
+    "apps": [
+      "Face illuminated built-up letters",
+      "Halo illuminated built-up letters",
+      "Face + halo built-up letters",
+      "Block acrylic / routed acrylic"
+    ],
+    "colors": [
+      "4000K",
+      "6500K",
+      "Red",
+      "Green",
+      "Blue",
+      "Orange"
+    ],
+    "spacing": 120,
+    "watts": 0.36,
+    "driver60": 150
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Edge",
+    "voltage": 12,
+    "depthMin": 50,
+    "depthMax": 100,
+    "apps": [
+      "Double-sided projecting sign",
+      "Side-lit sign box",
+      "Menu case"
+    ],
+    "colors": [
+      "3000K",
+      "6500K"
+    ],
+    "spacing": 100,
+    "watts": 1.5,
+    "driver60": 36
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Vizion",
+    "voltage": 24,
+    "depthMin": 120,
+    "depthMax": 500,
+    "apps": [
+      "Double-sided projecting sign",
+      "Side-lit sign box",
+      "Totem / lightbox"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "spacing": 350,
+    "watts": 7.2,
+    "driver60": 7
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Max",
+    "voltage": 24,
+    "depthMin": 180,
+    "depthMax": 260,
+    "apps": [
+      "Flex-face single-sided",
+      "Flex-face double-sided",
+      "Single-sided sign box / tray",
+      "Large/deep built-up letters"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "spacing": 587,
+    "watts": 7.0,
+    "driver60": 7
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL Ultra",
+    "voltage": 24,
+    "depthMin": 60,
+    "depthMax": 500,
+    "apps": [
+      "Side-lit sign box",
+      "Totem / lightbox",
+      "Double-sided projecting sign"
+    ],
+    "colors": [
+      "6500K"
+    ],
+    "spacing": 438,
+    "watts": 15.5,
+    "driver60": 3
+  },
+  {
+    "brand": "FirstLite",
+    "name": "FL RGB",
+    "voltage": 12,
+    "depthMin": 50,
+    "depthMax": 250,
+    "apps": [
+      "Face illuminated built-up letters",
+      "Single-sided sign box / tray"
+    ],
+    "colors": [
+      "RGB"
+    ],
+    "spacing": 205,
+    "watts": 0.72,
+    "driver60": 74
+  },
+  {
+    "brand": "FirstLite",
+    "name": "RGB Mini",
+    "voltage": 12,
+    "depthMin": 35,
+    "depthMax": 160,
+    "apps": [
+      "Face illuminated built-up letters",
+      "Block acrylic / routed acrylic"
+    ],
+    "colors": [
+      "RGB"
+    ],
+    "spacing": 125,
+    "watts": 0.72,
+    "driver60": 74
+  },
+  {
+    "brand": "FirstLite",
+    "name": "RGBW Reel",
+    "voltage": 24,
+    "depthMin": 10,
+    "depthMax": 200,
+    "apps": [
+      "LED ribbon / reel",
+      "Edge-lit acrylic",
+      "Architectural / menu box"
+    ],
+    "colors": [
+      "RGBW"
+    ],
+    "spacing": 17
+  },
+  {
+    "brand": "FirstLite",
+    "name": "RGB Reel",
+    "voltage": 12,
+    "depthMin": 10,
+    "depthMax": 200,
+    "apps": [
+      "LED ribbon / reel",
+      "Edge-lit acrylic",
+      "Architectural / menu box"
+    ],
+    "colors": [
+      "RGB"
+    ],
+    "spacing": 17
+  }
+]
