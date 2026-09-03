@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>ELLIS LED DESIGNER — MVP</title>
+<style>
+:root{--ink:#101820;--nav:#17365D;--blue:#2F75B5;--pale:#edf3f8;--line:#cfd8e3;--ok:#2e7d32;--warn:#f9a825;--bad:#c62828}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#eef2f5;color:var(--ink)}
+header{background:linear-gradient(135deg,#101820,#17365D);color:#fff;padding:18px 24px;display:flex;align-items:center;justify-content:space-between}
+.brand{font-size:24px;font-weight:800;letter-spacing:.4px}.tag{font-size:12px;opacity:.8}
+main{display:grid;grid-template-columns:360px 1fr;gap:14px;padding:14px;height:calc(100vh - 70px)}
+.panel,.workspace{background:#fff;border-radius:14px;box-shadow:0 8px 30px rgba(15,35,55,.08);overflow:auto}
+.panel{padding:14px}.workspace{display:flex;flex-direction:column}
+h2{font-size:15px;margin:18px 0 8px;color:var(--nav)}label{display:block;font-size:11px;font-weight:700;margin:8px 0 4px;color:#52606d}
+input,select,button{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;background:white}
+button{background:var(--nav);color:#fff;font-weight:700;cursor:pointer;margin-top:8px}
+button.secondary{background:#fff;color:var(--nav)} .row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.stagebar{display:flex;gap:6px;padding:10px 14px;border-bottom:1px solid var(--line);background:#fafcfe;flex-wrap:wrap}
+.badge{padding:6px 8px;border-radius:999px;background:var(--pale);font-size:11px;font-weight:700}
+.canvaswrap{flex:1;min-height:440px;padding:12px;background:#e8edf2;display:grid;place-items:center}
+canvas{max-width:100%;max-height:100%;background:#fff;border:1px solid #b8c4d0;box-shadow:0 3px 14px rgba(0,0,0,.12)}
+.metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;padding:10px 14px;border-top:1px solid var(--line)}
+.metric{background:#f7f9fb;padding:10px;border-radius:8px}.metric b{display:block;font-size:18px;color:var(--nav)}.metric span{font-size:10px;color:#687684}
+small.note{display:block;background:#fff8e1;padding:8px;border-left:4px solid var(--warn);margin-top:10px;font-size:10px;line-height:1.4}
+@media(max-width:900px){main{grid-template-columns:1fr;height:auto}.workspace{min-height:650px}.metrics{grid-template-columns:repeat(2,1fr)}}
+@media print{header,.panel,.stagebar button{display:none!important}main{display:block;padding:0}.workspace{box-shadow:none}.canvaswrap{background:#fff}.metrics{page-break-inside:avoid}}
+</style>
+</head>
+<body>
+<header><div><div class="brand">ELLIS LED DESIGNER</div><div class="tag">Module • Ribbon • Wiring • Power • Production Drawing</div></div><div class="tag">MVP 0.1</div></header>
+<main>
+<section class="panel">
+<h2>1 — PROJECT</h2>
+<div class="row"><div><label>Customer</label><input id="customer" value="Demo Customer"></div><div><label>Project Ref</label><input id="ref" value="LED-001"></div></div>
+<label>Sign / Description</label><input id="desc" value="Face illuminated built-up letters">
+
+<h2>2 — UPLOAD ARTWORK</h2>
+<label>Upload PNG / JPG / SVG</label><input id="file" type="file" accept=".png,.jpg,.jpeg,.svg,image/*">
+<div class="row"><div><label>Known overall width (mm)</label><input id="widthmm" type="number" value="2000"></div><div><label>Return depth (mm)</label><input id="depth" type="number" value="100"></div></div>
+<label>Image threshold (raster only)</label><input id="threshold" type="range" min="10" max="245" value="180">
+
+<h2>3 — CONSTRUCTION</h2>
+<label>Sign type</label><select id="signtype">
+<option>Face-lit letters</option><option>Halo-lit letters</option><option>Face + halo letters</option><option>Lightbox / tray</option><option>Flex-face</option><option>Totem</option><option>Projecting sign</option><option>LED ribbon / reel</option><option>Bespoke</option>
+</select>
+<div class="row"><div><label>Face</label><select id="face"><option>Standard white acrylic</option><option>Dark / coloured face</option><option>Perforated vinyl face</option></select></div>
+<div><label>Illumination</label><select id="illum"><option>White</option><option>Warm white</option><option>Red</option><option>Green</option><option>Blue</option><option>RGB</option><option>RGBW</option></select></div></div>
+
+<h2>4 — LED PRODUCT</h2>
+<label>Product</label><select id="product"></select>
+<div class="row"><div><label>Row spacing (mm)</label><input id="spacing" type="number" value="250"></div><div><label>Edge inset (mm)</label><input id="inset" type="number" value="35"></div></div>
+<button id="recommend">Recommend Product & Spacing</button>
+<button id="populate">AUTO POPULATE</button>
+<button class="secondary" id="clear">Clear modules</button>
+
+<h2>5 — OUTPUT</h2>
+<button id="print">Download / Print PDF</button>
+<button class="secondary" id="bom">Export BOM CSV</button>
+<small class="note">MVP calculation aid only. Final production density, thermal performance, power loading, cable sizing, voltage drop, driver selection and electrical installation must be verified against the current manufacturer data and the actual sign sample/construction before manufacture.</small>
+</section>
+
+<section class="workspace">
+<div class="stagebar"><span class="badge">ARTWORK</span><span class="badge">POPULATION</span><span class="badge">CIRCUITS</span><span class="badge">POWER</span><span class="badge">BOM</span></div>
+<div class="canvaswrap"><canvas id="c" width="1100" height="620"></canvas></div>
+<div class="metrics">
+<div class="metric"><b id="mcount">0</b><span>LED modules</span></div>
+<div class="metric"><b id="mwatts">0 W</b><span>Connected load</span></div>
+<div class="metric"><b id="mdrivers">0</b><span>60 W drivers</span></div>
+<div class="metric"><b id="mvoltage">—</b><span>LED voltage</span></div>
+<div class="metric"><b id="mspacing">—</b><span>Population spacing</span></div>
+</div>
+</section>
+</main>
+<script>
+const PRODUCTS = [{"brand": "SloanLED", "name": "Prism12 White", "voltage": 12, "watts": 0.92, "depthMin": 75, "depthMax": 125, "spacingByDepth": {"75": 250, "100": 300, "125": 425}, "driver60Max": 58, "colors": ["3000K", "4000K", "5000K", "6500K", "7100K"], "applications": ["Face-lit letters", "Shallow lightbox"], "source": "SloanLED Prism12 Global Spec Sheet"}, {"brand": "SloanLED", "name": "Prism White", "voltage": 12, "watts": 1.12, "depthMin": 75, "depthMax": 200, "spacingByDepth": {"75": 250, "100": 300, "125": 425, "150": 450, "200": 500}, "driver60Max": 48, "colors": ["3000K", "4000K", "5000K", "6500K"], "applications": ["Face-lit letters", "Large channel letters"], "source": "SloanLED Prism Global Spec Sheet"}, {"brand": "FirstLite", "name": "FL Edge", "voltage": 12, "watts": 1.5, "depthMin": 50, "depthMax": 100, "fixedSpacing": 100, "driver30Max": 18, "driver60Max": 36, "colors": ["3000K", "6500K"], "applications": ["Side-lit lightbox", "Projecting sign", "Menu case"], "source": "FirstLite FL Edge"}, {"brand": "FirstLite", "name": "FL Vizion", "voltage": 24, "watts": 7.2, "depthMin": 120, "depthMax": 400, "fixedSpacing": 350, "maxRun": 16, "driver30Max": 3, "driver60Max": 7, "colors": ["6500K"], "applications": ["Side-lit lightbox", "Totem"], "source": "FirstLite FL Vizion"}, {"brand": "FirstLite", "name": "FL Prime", "voltage": 12, "watts": 1.2, "depthMin": 50, "depthMax": 200, "fixedSpacing": 200, "driver30Max": 22, "driver60Max": 45, "colors": ["3000K", "6500K"], "applications": ["Face-lit letters", "General channel letters"], "source": "FirstLite published product data"}];
+const $=id=>document.getElementById(id);
+const c=$('c'), ctx=c.getContext('2d');
+let sourceCanvas=document.createElement('canvas'), sourceCtx=sourceCanvas.getContext('2d');
+let mask=null, modules=[], loaded=false, imgBounds={x:100,y:120,w:900,h:380};
+
+function loadProducts(){
+ $('product').innerHTML=PRODUCTS.map((p,i)=>`<option value="${i}">${p.brand} — ${p.name}</option>`).join('');
+}
+function drawDemo(){
+ ctx.clearRect(0,0,c.width,c.height); ctx.fillStyle='#fff';ctx.fillRect(0,0,c.width,c.height);
+ ctx.fillStyle='#12263a';ctx.font='bold 240px Arial';ctx.textAlign='center';ctx.textBaseline='middle';
+ ctx.fillText('ELLIS',c.width/2,c.height/2);
+ sourceCanvas.width=c.width;sourceCanvas.height=c.height;sourceCtx.drawImage(c,0,0);loaded=true;buildMask();
+}
+function buildMask(){
+ const d=sourceCtx.getImageData(0,0,sourceCanvas.width,sourceCanvas.height), th=+$('threshold').value;
+ mask=new Uint8Array(c.width*c.height);
+ for(let i=0;i<d.data.length;i+=4){
+   const a=d.data[i+3], lum=(d.data[i]+d.data[i+1]+d.data[i+2])/3;
+   mask[i/4]=(a>20 && lum<th)?1:0;
+ }
+ render();
+}
+function render(){
+ ctx.clearRect(0,0,c.width,c.height);ctx.fillStyle='#fff';ctx.fillRect(0,0,c.width,c.height);
+ if(loaded)ctx.drawImage(sourceCanvas,0,0,c.width,c.height);
+ ctx.save();ctx.globalAlpha=.96;
+ modules.forEach((m,i)=>{
+   ctx.beginPath();ctx.arc(m.x,m.y,7,0,Math.PI*2);ctx.fillStyle=i%2?'#ffb000':'#00a6ff';ctx.fill();
+   ctx.strokeStyle='#fff';ctx.lineWidth=2;ctx.stroke();
+ });
+ ctx.restore();
+ ctx.fillStyle='#17365D';ctx.font='bold 14px Arial';ctx.textAlign='left';
+ ctx.fillText(`${$('customer').value} | ${$('ref').value} | ${$('desc').value}`,18,25);
+ updateMetrics();
+}
+function inside(x,y){x=Math.round(x);y=Math.round(y);if(x<0||y<0||x>=c.width||y>=c.height)return false;return mask && mask[y*c.width+x]}
+function mmPerPx(){return (+$('widthmm').value||2000)/c.width}
+function populate(){
+ if(!mask)return;
+ modules=[];
+ const pitchMm=+$('spacing').value||250, insetMm=+$('inset').value||35, scale=mmPerPx();
+ const pitch=Math.max(16,pitchMm/scale), inset=Math.max(2,insetMm/scale);
+ for(let y=pitch/2;y<c.height;y+=pitch){
+   for(let x=pitch/2;x<c.width;x+=pitch){
+     if(!inside(x,y))continue;
+     let safe=true;
+     for(let a=0;a<8;a++){let ang=a*Math.PI/4;if(!inside(x+Math.cos(ang)*inset,y+Math.sin(ang)*inset)){safe=false;break}}
+     if(safe)modules.push({x,y});
+   }
+ }
+ render();
+}
+function selected(){return PRODUCTS[+$('product').value]}
+function updateMetrics(){
+ const p=selected();const count=modules.length;const watts=count*p.watts;
+ $('mcount').textContent=count;$('mwatts').textContent=watts.toFixed(1)+' W';
+ $('mvoltage').textContent=p.voltage+' V';
+ $('mspacing').textContent=$('spacing').value+' mm';
+ $('mdrivers').textContent=p.driver60Max?Math.ceil(count/p.driver60Max):Math.ceil(watts/54);
+}
+function recommend(){
+ const depth=+$('depth').value||100, type=$('signtype').value;
+ let candidates=PRODUCTS.map((p,i)=>({p,i})).filter(x=>depth>=x.p.depthMin && depth<=x.p.depthMax);
+ if(type.includes('Totem')) candidates=candidates.filter(x=>x.p.applications.some(a=>a.includes('Totem')));
+ if(type.includes('Projecting')) candidates=candidates.filter(x=>x.p.applications.some(a=>a.includes('Projecting')));
+ if(type.includes('Face-lit')) candidates=candidates.filter(x=>x.p.applications.some(a=>a.includes('Face-lit')));
+ if(!candidates.length)candidates=PRODUCTS.map((p,i)=>({p,i}));
+ $('product').value=candidates[0].i;
+ const p=candidates[0].p;
+ let spacing=p.fixedSpacing||250;
+ if(p.spacingByDepth){
+   const keys=Object.keys(p.spacingByDepth).map(Number).sort((a,b)=>Math.abs(a-depth)-Math.abs(b-depth));
+   spacing=p.spacingByDepth[keys[0]];
+ }
+ if($('face').value.includes('Dark')) spacing=Math.round(spacing*.9);
+ if($('face').value.includes('Perforated')) spacing=Math.round(spacing*.8);
+ $('spacing').value=spacing;updateMetrics();
+}
+$('file').addEventListener('change',e=>{
+ const f=e.target.files[0];if(!f)return;
+ const rd=new FileReader();rd.onload=ev=>{
+   const im=new Image();im.onload=()=>{
+     sourceCtx.clearRect(0,0,c.width,c.height);
+     const s=Math.min((c.width-60)/im.width,(c.height-60)/im.height);
+     const w=im.width*s,h=im.height*s,x=(c.width-w)/2,y=(c.height-h)/2;
+     sourceCtx.fillStyle='#fff';sourceCtx.fillRect(0,0,c.width,c.height);sourceCtx.drawImage(im,x,y,w,h);loaded=true;buildMask();
+   };im.src=ev.target.result;
+ };rd.readAsDataURL(f);
+});
+$('threshold').oninput=buildMask;$('populate').onclick=populate;$('clear').onclick=()=>{modules=[];render()};
+$('recommend').onclick=recommend;$('product').onchange=updateMetrics;$('spacing').oninput=updateMetrics;
+$('print').onclick=()=>window.print();
+$('bom').onclick=()=>{
+ const p=selected(), watts=modules.length*p.watts, drivers=p.driver60Max?Math.ceil(modules.length/p.driver60Max):Math.ceil(watts/54);
+ const csv=`Brand,Product,Voltage,Modules,Watts per module,Total watts,60W drivers,Spacing mm\n${p.brand},${p.name},${p.voltage},${modules.length},${p.watts},${watts.toFixed(2)},${drivers},${$('spacing').value}\n`;
+ const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download=`${$('ref').value}_LED_BOM.csv`;a.click();
+};
+loadProducts();drawDemo();recommend();
+</script>
+</body></html>
