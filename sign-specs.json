@@ -1,0 +1,62 @@
+{
+  "Face illuminated built-up letters": [
+    "3mm opal acrylic face",
+    "5mm opal acrylic face",
+    "Opal acrylic + translucent vinyl"
+  ],
+  "Halo illuminated built-up letters": [
+    "Opaque aluminium face / returns",
+    "Opaque acrylic face / fabricated returns"
+  ],
+  "Face + halo built-up letters": [
+    "Opal acrylic face + fabricated returns"
+  ],
+  "Large/deep built-up letters": [
+    "Opal acrylic face",
+    "Opal acrylic + translucent vinyl"
+  ],
+  "Block acrylic / routed acrylic": [
+    "Routed opal acrylic",
+    "Clear acrylic with diffused face",
+    "Block acrylic"
+  ],
+  "Single-sided sign box / tray": [
+    "3mm opal acrylic",
+    "5mm opal acrylic",
+    "Printed translucent panel",
+    "Tensioned fabric face"
+  ],
+  "Side-lit sign box": [
+    "Opal acrylic panel",
+    "Printed translucent panel"
+  ],
+  "Double-sided projecting sign": [
+    "Opal acrylic faces",
+    "Printed translucent faces"
+  ],
+  "Flex-face single-sided": [
+    "Printed double-strike flex face skin"
+  ],
+  "Flex-face double-sided": [
+    "Printed double-strike flex face skins \u2014 both faces"
+  ],
+  "Totem / lightbox": [
+    "Opal acrylic / polycarbonate faces",
+    "Printed translucent faces",
+    "Flex face skin"
+  ],
+  "Menu case": [
+    "Opal acrylic / graphic panel"
+  ],
+  "LED ribbon / reel": [
+    "No diffusing face",
+    "Diffused extrusion / acrylic"
+  ],
+  "Edge-lit acrylic": [
+    "Clear engraved acrylic",
+    "Diffused acrylic"
+  ],
+  "Architectural / menu box": [
+    "Diffuser / graphic panel"
+  ]
+}
